@@ -1,6 +1,9 @@
 # dGPU Sleep Monitor
+![alt text](<screenshots/Screenshot from 2026-06-08 00-49-48.png>)
+![alt text](<screenshots/Screenshot from 2026-06-08 00-50-01.png>)
 
 A [Dank Material Shell](https://github.com/AvengeMedia/DankMaterialShell) / Quickshell plugin that monitors your discrete GPU power state and optionally displays battery wattage alongside mode-switching controls for [superggfxctl](https://gitlab.com/asus-linux/supergfxctl) and [cardwire](https://opengamingcollective.github.io/cardwire/).
+
 
 ## Features
 
