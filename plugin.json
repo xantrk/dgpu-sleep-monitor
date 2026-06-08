@@ -1,11 +1,15 @@
 {
   "id": "dgpuStatus",
   "name": "dGPU Sleep Monitor",
-  "description": "Display  DGPU power state (D0, D3cold etc.) and optionally battery watter alongside with toggles for cardwire and/or supergfxctl.",
+  "description": "Monitor dGPU power state (D0, D3cold) and optionally display battery wattage with toggles for cardwire and/or supergfxctl mode switching.",
   "version": "0.1.0",
   "author": "xantrk",
   "icon": "bolt",
   "component": "./dgpuWidget.qml",
   "settings": "./dgpuWidgetSettings.qml",
-  "permissions": ["settings_read", "settings_write", "process"]
+  "permissions": ["settings_read", "settings_write", "process"],
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/xantrk/dgpu-sleep-monitor",
+  "dependencies": []
 }
